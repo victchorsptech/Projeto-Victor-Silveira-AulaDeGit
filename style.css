@@ -1,26 +1,224 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
 .header {
 
    background-color: #000407;
    color:#32B9CD;
+   border-bottom: 3px solid #32B9CD;
+
 
 }
 
 .container{
     width: 80%;
-    margin: 0% 10% 0% 10%;
+    margin: 0 auto;
 }
 
 
-.container {
+.header .container {
 
     display: flex;
     justify-content: space-between;
+    
 }
 
-.header .navbar {
+ .navbar {
 
+    display: flex;
     Width:400px;
     display: flex;
     list-style: none;
     justify-content: space-between ;
+    align-items: center;
+}
+
+.navbar a {
+
+    color: #E3B062;
+    text-decoration: none;
+
+}
+
+.agora {
+    font-weight: bold;
+}
+
+.banner {
+
+    background-image: url('bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+}
+
+.banner .container  {
+
+      height: 550px;
+      display: flex;
+      color: white;
+      align-items: center;
+}
+
+.banner .container.login {
+    justify-content: center;
+}
+
+.banner p {
+    font-size: 36px;
+    width: 280px;
+    margin-left: 20%;
+}
+
+.footer {
+ background-color: #32B9CD;
+ color: white;
+
+}
+
+.footer .container {
+
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.card {
+ 
+    background-color: #e5e5e5;
+    color: #e6055a;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h2 {
+    margin: 0;
+}
+form {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    width: 250px;
+}
+form input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: 3px solid #32d9cb;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E6005A ;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+.div1 {
+    Width: 100%;
+    Height: 412px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.elements { 
+
+    Width: 1084px;
+    Height: 288px;
+ margin-top: 80px;
+display: flex;
+
+
+justify-content: space-between ;
+
+   
+
+
+}
+ .missao {
+
+    width:200px;
+    height: 288px;
+    left: 140px;
+     top: 670px;
+    text-align: center;
+
+
+}
+.visao {
+    width:200px;
+    height: 288px;
+    left: 140px;
+     top: 670px;
+    text-align: center;
+
+}
+.valores {
+    width:200px;
+    height: 288px;
+    left: 140px;
+     top: 670px;
+    text-align: center;
+
+}
+
+h2 {
+
+    font-size: 30px;
+    justify-content: center;
+    color:#E6005A
+
+    
+    
+
+}
+
+.elements .missao img {
+
+
+    width: 150px;
+    
+
+
+    
+    
+
+}
+.elements .visao img {
+
+
+    width: 150px;
+
+
+    
+
+}
+.elements .valores img {
+
+
+    width: 150px;
+   
+
+    
+
 }
